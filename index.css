@@ -57,6 +57,11 @@ body {
 }
 .boxes {
     background-color: white;
+    background-image: url(http://icons.iconarchive.com/icons/icons8/android/512/Sports-Fishing-icon.png);
+    background-position: right;
+    color: black;
+    background-repeat: no-repeat;
+    background-size: contain;
     width: 75%;
     margin-left: 12%;
     text-align: center;
@@ -74,23 +79,19 @@ body {
 .boxes:hover {
     background-color: white;
     color: #000;
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -o-transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
 #box1 {
     width: 75%;
     background-color: white;
     background-image: url(http://icons.iconarchive.com/icons/icons8/android/512/Sports-Fishing-icon.png);
-    background-position: right;
-    color: black;
     
-    background-repeat: no-repeat;
-    background-size: contain;
     height: auto;
     opacity: 1;
 }
-#box {
+.box {
     margin-right: 36%;
     
 }
@@ -115,4 +116,11 @@ body {
 a {
     height: 96%;
     display: block;
+}
+footer {
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+    
 }
